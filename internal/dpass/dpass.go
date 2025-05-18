@@ -34,6 +34,6 @@ func ReadPassword(prompt string) (password []byte, err error) { //nolint:nonamed
 // DeriveKey derives a key from the password using Argon2id key derivation function.
 // The salt, cost parameters and length of key are hardcoded, don't modify them!!!!!
 func DeriveKey(password []byte) []byte {
-	salt := []byte("github.com/rbee3u/dpass/internal/dpass.DeriveKey")
+	salt := []byte("github.com/ios1024/dpass/internal/dpass.DeriveKey")
 	return argon2.IDKey(password, salt, 16, 1*1024*1024, 2, 32)
 }
