@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/rbee3u/dpass/internal/dpass/aes256"
-	"github.com/rbee3u/dpass/internal/dpass/qrcode"
-	"github.com/rbee3u/dpass/internal/dpass/shamir"
+	"github.com/rbee3u/ios1024/internal/ios1024/aes256"
+	"github.com/rbee3u/ios1024/internal/ios1024/qrcode"
+	"github.com/rbee3u/ios1024/internal/ios1024/shamir"
 	"github.com/spf13/cobra"
 )
 
@@ -18,7 +18,7 @@ func main() {
 }
 
 func newCmd() *cobra.Command {
-	cmd := &cobra.Command{Use: "dpass", Args: cobra.NoArgs}
+	cmd := &cobra.Command{Use: "ios1024", Args: cobra.NoArgs}
 	cmd.SilenceUsage = true
 	cmd.SilenceErrors = true
 	cmd.AddCommand(
