@@ -1,4 +1,4 @@
-module github.com/rbee3u/dpass
+module github.com/ios1024/dpass
 
 go 1.24.1
 
