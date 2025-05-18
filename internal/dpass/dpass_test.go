@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/rbee3u/dpass/internal/dpass"
+	"github.com/ios1024/dpass/internal/dpass"
 )
 
 func TestDeriveKey(t *testing.T) {
