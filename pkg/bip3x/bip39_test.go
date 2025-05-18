@@ -6,7 +6,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/rbee3u/dpass/pkg/bip3x"
+	"github.com/ios1024/dpass/pkg/bip3x"
 )
 
 func TestCreateEntropyRandomly(t *testing.T) {
