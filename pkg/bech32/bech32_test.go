@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/rbee3u/dpass/pkg/bech32"
+	"github.com/ios1024/dpass/pkg/bech32"
 )
 
 func TestEncode(t *testing.T) {
