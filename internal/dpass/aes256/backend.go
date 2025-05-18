@@ -10,7 +10,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/rbee3u/dpass/internal/dpass"
+	"github.com/ios1024/dpass/internal/dpass"
 	"github.com/spf13/cobra"
 )
 
