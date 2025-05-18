@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/rbee3u/dpass/third_party/github.com/decred/dcrd/dcrec/secp256k1"
+	"github.com/ios1024/dpass/third_party/github.com/decred/dcrd/dcrec/secp256k1"
 )
 
 const (
