@@ -5,7 +5,7 @@ import (
 	"math/rand/v2"
 	"testing"
 
-	"github.com/rbee3u/dpass/pkg/base58"
+	"github.com/ios1024/dpass/pkg/base58"
 )
 
 func TestTransform(t *testing.T) {
