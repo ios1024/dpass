@@ -7,12 +7,12 @@ import (
 	"os"
 	"slices"
 
-	"github.com/rbee3u/ios104/internal/dcoin"
-	"github.com/rbee3u/ios104/pkg/base58"
-	"github.com/rbee3u/ios104/pkg/bech32"
-	"github.com/rbee3u/ios104/pkg/bip3x"
-	"github.com/rbee3u/ios104/pkg/hashx"
-	"github.com/rbee3u/ios104/third_party/github.com/decred/dcrd/dcrec/secp256k1"
+	"github.com/ios1024/dpass/internal/dcoin"
+	"github.com/ios1024/dpass/pkg/base58"
+	"github.com/ios1024/dpass/pkg/bech32"
+	"github.com/ios1024/dpass/pkg/bip3x"
+	"github.com/ios1024/dpass/pkg/hashx"
+	"github.com/ios1024/dpass/third_party/github.com/decred/dcrd/dcrec/secp256k1"
 	"github.com/spf13/cobra"
 )
 
