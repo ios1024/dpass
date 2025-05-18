@@ -8,10 +8,10 @@ import (
 	"os"
 	"slices"
 
-	"github.com/rbee3u/dpass/internal/dcoin"
-	"github.com/rbee3u/dpass/pkg/bech32"
-	"github.com/rbee3u/dpass/pkg/bip3x"
-	"github.com/rbee3u/dpass/pkg/hashx"
+	"github.com/ios1024/dpass/internal/dcoin"
+	"github.com/ios1024/dpass/pkg/bech32"
+	"github.com/ios1024/dpass/pkg/bip3x"
+	"github.com/ios1024/dpass/pkg/hashx"
 	"github.com/spf13/cobra"
 )
 
