@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/rbee3u/dpass/pkg/hashx"
+	"github.com/ios1024/dpass/pkg/hashx"
 	"golang.org/x/crypto/pbkdf2"
 )
 
