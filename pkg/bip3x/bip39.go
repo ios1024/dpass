@@ -17,7 +17,7 @@ const (
 
 	EntropyBitsStep = 32
 	EntropyBitsMin  = 4 * EntropyBitsStep
-	EntropyBitsMax  = 8 * EntropyBitsStep
+	EntropyBitsMax  = 4 * EntropyBitsStep
 
 	SentenceBitsStep = 33
 	SentenceBitsMin  = 4 * SentenceBitsStep
