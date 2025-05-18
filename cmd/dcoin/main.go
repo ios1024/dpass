@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/rbee3u/dpass/internal/dcoin/bitcoin"
-	"github.com/rbee3u/dpass/internal/dcoin/dogecoin"
-	"github.com/rbee3u/dpass/internal/dcoin/ethereum"
-	"github.com/rbee3u/dpass/internal/dcoin/mnemonic"
-	"github.com/rbee3u/dpass/internal/dcoin/solana"
-	"github.com/rbee3u/dpass/internal/dcoin/sui"
-	"github.com/rbee3u/dpass/internal/dcoin/tron"
+	"github.com/ios1024/dpass/internal/dcoin/bitcoin"
+	"github.com/ios1024/dpass/internal/dcoin/dogecoin"
+	"github.com/ios1024/dpass/internal/dcoin/ethereum"
+	"github.com/ios1024/dpass/internal/dcoin/mnemonic"
+	"github.com/ios1024/dpass/internal/dcoin/solana"
+	"github.com/ios1024/dpass/internal/dcoin/sui"
+	"github.com/ios1024/dpass/internal/dcoin/tron"
 	"github.com/spf13/cobra"
 )
 
