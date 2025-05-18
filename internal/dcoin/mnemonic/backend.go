@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/rbee3u/dpass/pkg/bip3x"
+	"github.com/ios1024/dpass/pkg/bip3x"
 	"github.com/spf13/cobra"
 )
 
